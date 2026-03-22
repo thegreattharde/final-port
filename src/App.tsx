@@ -22,52 +22,83 @@ import {
 // ============================================
 // THARDE'S VIDEOS - ALL 6 VIDEOS
 // ============================================
-const allVideos = [
+const videoProjects = [
   {
-    id: "v1",
+    id: 1,
     title: "Restored Testicles",
-    embedUrl:
-      "https://drive.google.com/file/d/17ofDXWyaPc0Vr2-4ASdigSQTMUqiGfiI/preview",
-    category: "excerpts",
-    source: "gdrive",
+    videoUrl: "https://drive.google.com/file/d/17ofDXWyaPc0Vr2-4ASdigSQTMUqiGfiI/preview",
+    category: "Excerpts",
+    isEmbed: true,
   },
   {
-    id: "v2",
+    id: 2,
     title: "Barrenness Testimony",
-    embedUrl:
-      "https://drive.google.com/file/d/17ph0N1FDZORgbV4GLgY_Tnzo0FBebcf4/preview",
-    category: "excerpts",
-    source: "gdrive",
+    videoUrl: "https://drive.google.com/file/d/17ph0N1FDZORgbV4GLgY_Tnzo0FBebcf4/preview",
+    category: "Excerpts",
+    isEmbed: true,
   },
   {
-    id: "v3",
+    id: 3,
     title: "Revup Ad",
-    embedUrl:
-      "https://drive.google.com/file/d/17xt6Df9oWALyD-6_DzGcS6wd2qvzN5Lf/preview",
-    category: "social media",
-    source: "gdrive",
+    videoUrl: "https://drive.google.com/file/d/17xt6Df9oWALyD-6_DzGcS6wd2qvzN5Lf/preview",
+    category: "Social Media",
+    isEmbed: true,
   },
   {
-    id: "v4",
+    id: 4,
     title: "Secular Songs",
-    embedUrl: "https://www.instagram.com/reel/DOmEb9tDTGM/embed",
-    category: "social media",
-    source: "instagram",
+    videoUrl: "https://www.instagram.com/reel/DOmEb9tDTGM/embed",
+    category: "Social Media",
+    isEmbed: true,
   },
   {
-    id: "v5",
+    id: 5,
     title: "Josh Trap Music",
-    embedUrl: "https://www.instagram.com/reel/DVWW4zKDJii/embed",
-    category: "music video",
-    source: "instagram",
+    videoUrl: "https://www.instagram.com/reel/DVWW4zKDJii/embed",
+    category: "Music Video",
+    isEmbed: true,
   },
   {
-    id: "v6",
+    id: 6,
     title: "Giants",
-    embedUrl:
-      "https://drive.google.com/file/d/1CLMGwdWb_HRE5o8i16NVezqETGFwCYwD/preview",
-    category: "social media",
-    source: "gdrive",
+    videoUrl: "https://drive.google.com/file/d/1CLMGwdWb_HRE5o8i16NVezqETGFwCYwD/preview",
+    category: "Social Media",
+    isEmbed: true,
+  },
+  {
+    id: 7,
+    title: "Sleeping Beauty",
+    videoUrl: "https://drive.google.com/file/d/1VCqDV_drfmSRUHcn6h1f85SNjAgyUh3T/preview",
+    category: "Social Media",
+    isEmbed: true,
+  },
+  {
+    id: 8,
+    title: "Revup Interview",
+    videoUrl: "https://drive.google.com/file/d/1BwA4vlhKdm91kJ4AY3hXIhkERNLtpDET/preview",
+    category: "Documentary",
+    isEmbed: true,
+  },
+  {
+    id: 9,
+    title: "Storytelling",
+    videoUrl: "https://drive.google.com/file/d/1Ygy6b9WEba8wknziZf5D6xFdv8_Xxqw_/preview",
+    category: "Social Media",
+    isEmbed: true,
+  },
+  {
+    id: 10,
+    title: "Maths Story",
+    videoUrl: "https://drive.google.com/file/d/15tRblQgimXUQ_ir6iW-QsE1ehRxXREZx/preview",
+    category: "Social Media",
+    isEmbed: true,
+  },
+  {
+    id: 11,
+    title: "PPK Money",
+    videoUrl: "https://drive.google.com/file/d/1Lm8ddYOdhbl5-HxMPFY29Ny0vOVsCiiN/preview",
+    category: "Social Media",
+    isEmbed: true,
   },
 ];
 
