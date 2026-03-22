@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 
 // ============================================
-// THARDE'S VIDEOS - ALL 6 VIDEOS
+// THARDE'S VIDEOS - ALL 11 VIDEOS
 // ============================================
 const videoProjects = [
   {
